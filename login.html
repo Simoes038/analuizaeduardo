@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+
+    <body class="bg">
+    </body>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .bg {
+            background-image: url("rapunzelsimoes.jpg")
+        }
+        
+        form {
+            width: 300px;
+            margin: 200px auto;
+            text-align: center;
+        }
+        
+        input {
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>Oi Amor!</h1>
+        <br>
+
+        <input type="text" placeholder="Digite seu nome" id="loginid" required>
+        <input type="password" id="senhaid" placeholder="Digite sua senha" required>
+        <button onclick="logar()">Entrar</button>
+
+    </form>
+    <script src="verification.html"></script>
+    <!-- <script>
+        function logar () {
+
+            var login = document.getElementById('loginid').value;
+
+            var senha = document.getElementById('senahid').value;
+            
+            if(login =="rapunzel" && senha == "1234") {
+                alert('Sucesso')
+                location.href= "inicio.html";
+            }
+            else{
+                alert('Usuario ou senha incorretos');
+            }
+
+
+        }
+    </script> -->
+
+
+</body>
+
+</html>
